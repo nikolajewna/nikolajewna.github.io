@@ -33,6 +33,11 @@ author:
   ua: Валентина Рудь
   ru: Валентина Рудь
 
+list_title:
+  de: Beiträge
+  ua: Внески
+  ru: Сообщений
+
 email: familie_rud@inbox.ru
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
