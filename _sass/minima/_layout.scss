@@ -36,6 +36,19 @@
   min-height: $base-line-height * $base-font-size * 1.5;
 }
 
+.img-post {
+  max-width: 50%;
+  margin: auto;
+  display: block;
+}
+
+.p-center {
+  text-align: center;
+  color: $brand-color;
+  font-weight: $base-font-weight;
+  font-size: $base-font-size * 4;
+}
+
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
