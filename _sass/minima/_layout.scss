@@ -31,6 +31,11 @@
   }
 }
 
+.site-lang {
+  float: right;
+  min-height: $base-line-height * $base-font-size * 1.5;
+}
+
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
