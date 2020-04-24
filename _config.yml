@@ -33,6 +33,13 @@ author:
   ua: Валентина Рудь
   ru: Валентина Рудь
 
+phone:
+  de: Tel.
+  ua: Тел.
+  ru: Тел.
+
+phonenumber: 0123 / 45 67 89 10
+
 # list_title:
 #   de: Beiträge
 #   ua: Внески
