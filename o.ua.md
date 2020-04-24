@@ -1,6 +1,6 @@
 ---
 layout: page
-title: O
+title: Про нас
 ref: about
 lang: ua
 ---

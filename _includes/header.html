@@ -31,15 +31,3 @@
     {%- endif -%}
   </div>
 </header>
-
-<header>
-<div class="wrapper">
-  <div class="site-lang">
-  {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-  {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}">{{ post.lang }}</a> {% endfor %}
-
-  {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}">{{ page.lang }}</a> {% endfor %}
-  </div>
-</div>
-</header>

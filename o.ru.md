@@ -1,6 +1,6 @@
 ---
 layout: page
-title: O
+title: О нас
 ref: about
 lang: ru
 ---

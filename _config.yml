@@ -33,10 +33,10 @@ author:
   ua: Валентина Рудь
   ru: Валентина Рудь
 
-list_title:
-  de: Beiträge
-  ua: Внески
-  ru: Сообщений
+# list_title:
+#   de: Beiträge
+#   ua: Внески
+#   ru: Сообщений
 
 email: familie_rud@inbox.ru
 baseurl: "" # the subpath of your site, e.g. /blog
