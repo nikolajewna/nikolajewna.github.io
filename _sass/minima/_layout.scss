@@ -6,16 +6,9 @@
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 4.865;
   text-align: center;
-}
-
-.site-header {
-//  border-top: 5px solid $grey-color-dark;
-  border-bottom: 10px solid $brand-color;
-  min-height: $spacing-unit * 1.865;
-  background-color: $grey-color-dark;
-
-  // Positioning context for the mobile navigation icon
-  position: relative;
+  @include media-query($on-palm) {
+    display: none;
+  }
 }
 
 .site-title {
@@ -29,6 +22,35 @@
   &:visited {
     color: $grey-color-dark;
   }
+}
+
+.mobile-title {
+  @include relative-font-size(1.625);
+  color: $grey-color-light;
+  font-weight: 300;
+  line-height: $base-line-height * $base-font-size * 2.25;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  float: left;
+  display: none;
+
+  &,
+  &:visited {
+    color: $grey-color-light;
+  }
+  @include media-query($on-palm) {
+    display: inline;
+  }
+}
+
+.site-header {
+//  border-top: 5px solid $grey-color-dark;
+  border-bottom: 10px solid $brand-color;
+  min-height: $spacing-unit * 1.865;
+  background-color: $grey-color-dark;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
 }
 
 .site-lang {
@@ -116,6 +138,7 @@
     .page-link {
       display: block;
       padding: 5px 10px;
+      color: $grey-color-dark;
 
       &:not(:last-child) {
         margin-right: 0;
