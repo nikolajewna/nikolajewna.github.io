@@ -1,5 +1,5 @@
 ---
-layout: impressum
+layout: post
 title: Відбиток
 ref: impressum
 lang: ua
@@ -17,3 +17,11 @@ lang: ua
 > Бетагассе 2  
 > 54321 Сумка  
 > Тел: 0123/45 67 89
+
+{% include map.html %}
+
+## Ресурси
+
+* Фото ячменю на головній сторінці:
+  [pexels.com](https://www.pexels.com/de-de/foto/anbau-ausserorts-bauernhof-ernte-533346/)
+* Середовище розробки [jekyll](https://jekyllrb.com/)
