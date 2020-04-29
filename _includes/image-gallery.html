@@ -1,0 +1,14 @@
+{% unless include.images == empty or include.images == nil %}
+<ul class="image-gallery">
+{% endunless %}
+{% for image in include.images %}
+<li>
+  <a href="{{ image.path | relative_url }}">
+    <img src="{{ image.path | replace: '.', '_thumb.' | relative_url }}" alt="{{ image.title[page.lang] }}" title="{{ image.title[page.lang] }}" />
+  </a>
+</li>
+{% endfor %}
+{% unless include.images == empty or include.images == nil %}
+</ul>
+{% endunless %}
+<script type="text/javascript" src="/js/lightbox.js"></script>
