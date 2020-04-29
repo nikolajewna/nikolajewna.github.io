@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Über
+title: Über Uns
 permalink: /about/
 ref: about
 lang: de
