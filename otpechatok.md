@@ -6,18 +6,22 @@ ref: impressum
 lang: ru
 ---
 
-Ответственный за содержание этой страницы:
+## наши часы работы
 
-> Эрика Мустерманн  
-> Alphaweg 1  
-> 12345 Омега Сити  
+> Пн: 08:00 в 18:00  
+> Вт: 08:00 в 18:00  
+> Ср: 08:00 в 18:00  
+> Чт: 08:00 в 18:00  
+> FП: 08:00 в 18:00  
+> Сб: 08:00 в 16:30  
+> Вс: 08:00 в 14:00  
 
 ## Здесь вы можете найти нас
 
-> "Урожай" садоводческая розница  
-> Бетагассе 2  
-> 54321 Сумка  
-> Тел: 0123/45 67 89
+> {{ site.title['ru'] }}  
+> {{ site.street }}  
+> {{ site.plz }} {{ site.city }}  
+> Tel: {{ site.phonenumber }}
 
 {% include map.html %}
 
@@ -26,3 +30,4 @@ lang: ru
 * Фотография ячменя на главной странице:
   [pexels.com](https://www.pexels.com/de-de/foto/anbau-ausserorts-bauernhof-ernte-533346/)
 * Среда разработки [jekyll](https://jekyllrb.com/)
+* Фотогалерея: [Lightbox](https://jekyllcodex.org/without-plugin/lightbox/)

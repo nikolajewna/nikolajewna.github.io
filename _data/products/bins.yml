@@ -1,0 +1,47 @@
+category_name:
+  de: Kochtöpfe
+  ru: Кастрюли
+  ua: Варіння Горщиків
+
+category_description:
+  de: In dieser Sektion finden sie unsere tolle Auswahl an Kochtöpfen.
+  ru: В этом разделе вы найдете наш большой выбор кастрюль.
+  ua: У цьому розділі ви знайдете наш великий вибір каструль.
+
+products:
+  - img_path: /assets/images/products/copper_jar.jpg
+    title:
+      de: Ein höchst edler Kupfer-Topf
+      ru: Очень благородный медный горшок
+      ua: Дуже благородний мідний горщик
+    price: 30.000 UAH
+  - img_path: /assets/images/products/green_jar.jpg
+    title:
+      de: Ein schöner grüner Topf
+      ru: Хороший зеленый горшок
+      ua: арний зелений горщик
+    price: 400 UAH
+  - img_path: /assets/images/products/jars.jpg
+    title:
+      de: Ein Set super Töpfe
+      ru: Набор отличных горшков
+      ua: Набір чудових горщиків
+    price: 10000 UAH
+  - img_path: /assets/images/products/pink_jars.jpg
+    title:
+      de: Ein Topfset für Ladies
+      ru: Горшочек для дам
+      ua: Горщик для дам
+    price: 5000 UAH
+  - img_path: /assets/images/products/steel_jars.jpg
+    title:
+      de: Ein Topfset für Herren
+      ru: Горшок для мужчин
+      ua: Горщик для чоловіків
+    price: 10.000 UAH
+  - img_path: /assets/images/products/yellow_jar.jpg
+    title:
+      de: Eine gelbe Kasserolle
+      ru: Желтая кастрюля
+      ua: Жовта каструля
+    price: 600 UAH

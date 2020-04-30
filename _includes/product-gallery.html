@@ -1,0 +1,28 @@
+
+{% for product_category in site.data.products %}
+<h2>{{ product_category[1].category_name[page.lang] }}</h2>
+<p>{{ product_category[1].category_description[page.lang] }}</p>
+
+  {% unless product_category[1].products == empty or product_category[1].products == nil %}
+  <ul class="product-gallery">
+  {% endunless %}
+
+  {% for product in product_category[1].products %}
+  <li>
+      <span>{{ product.title[page.lang] }}</span>
+    <a href="{{ product.img_path | relative_url }}">
+      <img src="{{ product.img_path | replace: '.', '_thumb.' | relative_url }}"
+      alt="{{ product.title[page.lang] }}" title="{{ product.title[page.lang]
+      }}"/>
+      <span>{{ product.price }}</span>
+    </a>
+  </li>
+  {% endfor %}
+
+  {% unless product_category[1].products == empty or product_category[1].products == nil %}
+  </ul>
+  {% endunless %}
+
+{% endfor %}
+
+<script type="text/javascript" src="/js/lightbox.js"></script>

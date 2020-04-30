@@ -38,14 +38,12 @@ phone:
   ua: Тел.
   ru: Тел.
 
-phonenumber: 0123 / 45 67 89 10
-
-# list_title:
-#   de: Beiträge
-#   ua: Внески
-#   ru: Сообщений
-
+street: Вулиця Герасима Кондратьєва, 154  
+city: Суми
+plz: 12-345
+phonenumber: +380 (543) 78-70-86
 email: familie_rud@inbox.ru
+
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb

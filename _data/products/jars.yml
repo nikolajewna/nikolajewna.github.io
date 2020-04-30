@@ -1,0 +1,35 @@
+category_name:
+  de: Blumentöpfe
+  ru: Цветы Горшки
+  ua: Квіти Горщики
+
+category_description:
+  de: In dieser Sektion finden sie unsere tolle Auswahl an Blumentöpfen.
+  ru: В этом разделе вы найдете наш большой выбор цветочных горшков.
+  ua: У цьому розділі ви знайдете наш чудовий вибір вазонів для квітів.
+
+products:
+  - img_path: /assets/images/products/ceramic_pot.jpg
+    title:
+      de: Keramik Blumentopf
+      ru: Керамический Горшок
+      ua: Керамічний Квітковий Горщик
+    price: 6000 грн
+  - img_path: /assets/images/products/grey_pot.jpg
+    title:
+      de: Ein schöner grauer Topf
+      ru: Глиняный горшок, расписанный детьми
+      ua: Глиняний горщик, намальований дітьми
+    price: 500 ₴
+  - img_path: /assets/images/products/painted_pot.jpg
+    title:
+      de: Ein von kindern bemalter Tontopf
+      ru: Горшок, расписанный детьми
+      ua: Горщик, намальований дітьми
+    price: 100 UAH
+  - img_path: /assets/images/products/yellow_pot.jpg
+    title:
+      de: Ein hippy-gelber Topf
+      ru: Хиппи желтый горшок
+      ua: Хіппі жовтий горщик
+    price: 800 UAH
