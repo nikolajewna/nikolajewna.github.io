@@ -38,11 +38,11 @@ phone:
   ua: Тел.
   ru: Тел.
 
-street: Вулиця Герасима Кондратьєва, 154  
+street: Вулиця Герасима Кондратьєва, 154
 city: Суми
-plz: 12-345
-phonenumber: +380 (543) 78-70-86
-email: familie_rud@inbox.ru
+plz: 40-021
+phonenumber: +380 (542) 78-70-86
+email: 2198006947@ukr.net
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com

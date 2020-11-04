@@ -7,20 +7,18 @@ lang: de
 
 ## Unsere Öffnungszeiten
 
-> Mo: 08:00 bis 18:00  
-> Di: 08:00 bis 18:00  
-> Mi: 08:00 bis 18:00  
-> Do: 08:00 bis 18:00  
-> Fr: 08:00 bis 18:00  
-> Sa: 08:00 bis 16:30  
-> So: 08:00 bis 14:00  
+Montag bis Freitags von 08:00 bis 18:00 Uhr,  
+Samstags von 08:00 bis 16:30 Uhr und  
+Sonntags von 08:00 bis 14:00 Uhr
 
-## Hier finden Sie uns
+An Feiertagen geschlossen.
 
-> {{ site.title['de'] }}  
-> {{ site.street }}  
-> {{ site.plz }} {{ site.city }}  
-> Tel: {{ site.phonenumber }}
+## Hier finden Sie uns:
+
+{{ site.title['de'] }}  
+{{ site.street }}  
+{{ site.plz }} {{ site.city }}  
+{{ site.phone['de'] }}: {{ site.phonenumber }}
 
 {% include map.html %}
 
