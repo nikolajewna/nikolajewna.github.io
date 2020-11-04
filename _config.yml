@@ -56,15 +56,15 @@ header_pages:
   - ueber.md
   - o.ru.md
   - o.ua.md
-  - gallerie.md
-  - galereya.md
-  - halereya.md
-  - impressum.md
-  - otpechatok.md
-  - vidbytok.md
   - produkte.md
   - produktiv.md
   - produkty.md
+  - impressum.md
+  - otpechatok.md
+  - vidbytok.md
+  - gallerie.md
+  - galereya.md
+  - halereya.md
 
 # Exclude from processing.
 # The following items will not be processed, by default.
