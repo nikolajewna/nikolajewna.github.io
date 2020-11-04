@@ -7,7 +7,6 @@
     {%- assign default_paths = site.pages | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="mobile-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title[page.lang] | escape }}</a>
-
     {%- if page_paths -%}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -20,12 +19,12 @@
         </label>
 
         <div class="trigger">
-        {% assign pages=site.pages | where:"lang", page.lang %}
-        {% for my_page in pages %}
-          {% if my_page.title %}
+        {%- for path in page_paths -%}
+        {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title and my_page.lang == page.lang -%}
           <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
+          {%- endif -%}
+        {%- endfor -%}
         </div>
       </nav>
     {%- endif -%}

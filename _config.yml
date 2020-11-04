@@ -52,6 +52,20 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # Build settings
 theme: minima
 
+header_pages:
+  - ueber.md
+  - o.ru.md
+  - o.ua.md
+  - gallerie.md
+  - galereya.md
+  - halereya.md
+  - impressum.md
+  - otpechatok.md
+  - vidbytok.md
+  - produkte.md
+  - produktiv.md
+  - produkty.md
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
