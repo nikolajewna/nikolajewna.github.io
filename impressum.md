@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Impressum
+title: Kontakt 
 ref: impressum
 lang: de
 ---
 
-## Unsere Öffnungszeiten
+## Unsere Öffnungszeiten:
 
 Montag bis Freitags von 08:00 bis 18:00 Uhr,  
 Samstags von 08:00 bis 16:30 Uhr und  
