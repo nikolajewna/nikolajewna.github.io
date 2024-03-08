@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Контакты
-permalink: /impressum/
 ref: impressum
 lang: ru
 ---
